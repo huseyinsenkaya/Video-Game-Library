@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.game-app{
+    margin: 20px 450px;
+    border: 1px solid  #9999;
+}
+.banner-header{
+    text-align: center;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: palevioletred;
+}
+#banner-input {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.game-list ul{
+    padding: 0;
+}
+.list-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid #9999;
+    align-items: baseline;
+    border-radius: 3px;
+    padding: 0 20px;
+    margin: 0 10px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    font-size: 20px;
+}
+.list:hover {
+    border-left-color: plum;
+}
+.delete-button {
+    height: 35px;
+    width: 80px;
+    background-color: plum; 
+    border-radius: 4px;
+    border: none;
+    color: seashell;
+}
+.delete-button:hover  {
+    background-color: rosybrown;
+    cursor: pointer;
+}
+#add-game{
+    display: flex;
+    justify-content: center;
+}
+#add-game {
+    margin-bottom: 50px;
+}
+#add-game-input {
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+}
+#add-game-button {
+    width: 80px;
+    background-color: plum; 
+    border: none;
+    color: seashell;
+}
+#add-game-button:hover {
+    background-color: rosybrown;
+    cursor: pointer;
+}
+#check-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.tabs {
+    list-style: none;
+    display: flex;
+}
+.tab-element {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid plum; 
+    border-radius: 3px;
+}
+.tab-element:hover{
+    border-color: rosybrown;
+    cursor: pointer;
+}
+.panel {
+    display: none;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #9999;
+    border-radius: 3px;
+    margin-left: 50px;
+}
+.active {
+    display: block;
+}

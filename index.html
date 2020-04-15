@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <title>ViGaLi</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <main class="game-app">
+        <div class="banner">
+            <h1 class=banner-header>Video Games Library</h1>
+            <form id="search-games">
+                <input type="text" id="banner-input" placeholder="Search Games...">
+            </form>
+        </div>
+        <div class="game-list">
+            <h1 class="list-header">Games To Play</h1>
+            <ul>
+                <li class="list"><span class="name">Ori and the Blind Forest</span><button
+                        class="delete-button">delete</button></li>
+                <li class="list"><span class="name">Red Dead Redemption 2</span><button
+                        class="delete-button">delete</button></li>
+                <li class="list"><span class="name">Detroit Become Human</span><button
+                        class="delete-button">delete</button></li>
+                <li class="list"><span class="name">Ori and the Will of the Wisps</span><button
+                        class="delete-button">delete</button></li>
+            </ul>
+        </div>
+        <form id="check-box">
+            <input type="checkbox" id="check-box-click">
+            <label for="check-box">Hide all games.</label>
+        </form>
+
+        <form id="add-game">
+            <input type="text" id="add-game-input" placeholder="Add New Game..">
+            <input type="submit" id="add-game-button" value="Add">
+        </form>
+
+        <div class="tabbed-content">
+            <ul class="tabs">
+                <li data-target="#about" class="tab-element active">About</li>
+                <li data-target="#achievements" class="tab-element">Achievements</li>
+            </ul>
+
+            <div class="panel active" id="about">
+                <p>Content for about tab</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minus officiis laborum quaerat
+                    quas veritatis repellendus obcaecati cum quam dignissimos!</p>
+            </div>
+            <div class="panel" id="achievements">
+                <p>Content for achievemenets</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempore animi porro id quis rerum
+                    aperiam ad quisquam iusto odit.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
